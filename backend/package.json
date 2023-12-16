@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "## Technologies Utilisées",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idr-yous/projrct_7_mon_view_grimoire.git"
+  },
+  "author": "Idris Yousfi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idr-yous/projrct_7_mon_view_grimoire/issues"
+  },
+  "homepage": "https://github.com/idr-yous/projrct_7_mon_view_grimoire#readme"
+}
