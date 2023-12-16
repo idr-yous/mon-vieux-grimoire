@@ -1,0 +1,76 @@
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore user-specific files
+npm-debug.log
+npm-debug.log.*
+.pnpm-debug.log*
+
+# Ignore generated files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+pnpify/
+.pnp/
+.cache/
+
+# dotenv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# Jest coverage
+coverage/
+
+# yarn
+yarn-error.log
+
+# IDE files
+.idea/
+
+# Project-specific files
+/dist/
+/build/
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Serverless
+.serverless/
+
+# End-to-End testing
+cypress/screenshots/
+cypress/videos/
+
+# Database
+*.sqlite
+*.sqlite3
