@@ -1,0 +1,1 @@
+# projrct_7_mon_view_grimoire
