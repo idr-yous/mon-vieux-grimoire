@@ -1,8 +1,8 @@
 const bcrypt = require("bcrypt");
 const User = require("../models/User");
+const jwt = require("jsonwebtoken");
 
 exports.signup = (req, res, next) => {
-  console.log(req.body);
   if (!req.body.email || !req.body.password) {
     return res.status(422).send({
       message: "Must have email and password",
@@ -42,7 +42,9 @@ exports.login = (req, res, next) => {
           }
           res.status(200).json({
             userId: user._id,
-            token: "TOKEN",
+            token: jwt.sign({ userId: user._id }, process.env.TOKEN_SECRET, {
+              expiresIn: "24h",
+            }),
           });
         })
         .catch((error) => res.status(500).json({ error }));
