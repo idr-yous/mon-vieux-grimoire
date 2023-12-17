@@ -18,6 +18,7 @@
   "homepage": "https://github.com/idr-yous/projrct_7_mon_view_grimoire#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
   }
 }
