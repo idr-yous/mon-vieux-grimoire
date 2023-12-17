@@ -1,7 +1,11 @@
 const express = require("express");
 require("dotenv").config();
 const mongoose = require("mongoose");
+const cors = require("cors");
+const helmet = require("helmet");
 const app = express();
+
+const userRoutes = require("./routes/user");
 
 mongoose
   .connect(
@@ -13,5 +17,8 @@ mongoose
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
+app.use(helmet({ crossOriginResourcePolicy: false }));
+app.use("/api/auth", userRoutes);
 
 module.exports = app;
