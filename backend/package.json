@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idr-yous/projrct_7_mon_view_grimoire.git"
+    "url": "git+https://github.com/idr-yous/mon-vieux-grimoire.git"
   },
   "author": "Idris Yousfi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/idr-yous/projrct_7_mon_view_grimoire/issues"
+    "url": "https://github.com/idr-yous/mon-vieux-grimoire/issues"
   },
-  "homepage": "https://github.com/idr-yous/projrct_7_mon_view_grimoire#readme",
+  "homepage": "https://github.com/idr-yous/mon-vieux-grimoire#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
@@ -26,6 +26,7 @@
     "mongoose": "^8.0.3",
     "mongoose-unique-validator": "^4.0.0",
     "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.2",
     "validator": "^13.11.0"
   }
 }
